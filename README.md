@@ -1,21 +1,6 @@
-# React + TypeScript + Vite + shadcn/ui
+# Pratham's personal site
+I recently bought a new domain (very good one at that: https://kernel.tel) and I decided I needed a better portfolio.
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+I used React + Vite and Shadcn to make this portfolio!
 
-## Adding components
-
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+Visit it here: https://kernel.tel
