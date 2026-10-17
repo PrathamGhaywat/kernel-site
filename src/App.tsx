@@ -13,6 +13,7 @@ export function App() {
                 <a href="/">#home</a>
                 <a href="#about">#about</a>
                 <a href="#projects">#projects</a>
+                <a href="#experience">#experience</a>
                 <a href="#contact">#contact</a>
               </div>
             </div>
@@ -22,11 +23,18 @@ export function App() {
           <h1 className="text-8xl mt-10">Hi, I am <div className="text-amber-600">Pratham</div></h1>
           <p className="text-4xl mt-2 text-muted-foreground">Coding and vibing whenever I can</p>
           
-        <div className="flex justify-center p-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5 p-5">
           <img
             src="https://github-readme-stats.hackclub.dev/api/wakatime?username=17077&api_domain=hackatime.hackclub.com&theme=gotham&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8"
             alt="Hackatime Stats"
-            className="w-full max-w-xl h-auto rounded-xl shadow-lg"
+            className="w-full max-w-md"
+            loading="lazy"
+          />
+
+          <img
+            src="https://github-stats-extended.vercel.app/api?username=PrathamGhaywat&rank_icon=percentile&show_icons=true&include_all_commits=true&theme=gruvbox"
+            alt="Pratham's GitHub Stats"
+            className="w-full max-w-md"
             loading="lazy"
           />
         </div>
@@ -49,11 +57,19 @@ export function App() {
                 ))}
         </div>
         </div>
-        <div  className="mx-4 mt-5 bg-neutral-900 " id="contact">
+        <div className="mx-4 mt-5 bg-neutral-900" id="work">
+          <h2 className="text-orange-500 text-3xl p-2">#experience</h2>
+          <p className="text-xl px-2 text-muted-foreground">My accomplishments and what I know</p>
+          <ul className="px-2 py-2 text-2xl text-white">
+            <li>- Jugend Forscht Regionals (February, 2026): <br />Won 1st place. Used Arduino C++ and SvelteKit to demonstrate Hardware and Cloud synchronisation to help run AI Plant Health Analysis. Used Appwrite to power the backend and Vercel AI SDK alongside grounding results with accurate internet data.</li>
+            <li>- Internship (May, 2026): SUSE<br />I interned there for a week and worked on Orthos2, a internal tool for managing CI/CD maschines. I used django and python, alongside Github Copilot and learned Git Branches and PR and Review guidelines.</li>
+            <li>- Jugend Forscht State Championship (May, 2026): <br />Went to the State level competitions at the Rohde & Schwarz Headquarters in Munich. Got 2 special prizes.</li>
+            <li>- Game Jam Haven (November, 2026): <br />Lead organiser on the upcoming Game Jam Haven Nuremberg on 14th and 15th November. Responsible for getting venue (Jugendhaus TetriX) and Sponsors (Porkbun, Pixel Maniacs, Hetzner, .XYZ, ...). Made with the help of Hack Club.</li>
+          </ul>
+        </div>
+        <div  className="mx-4 mt-5" id="contact">
                 <h2 className="text-orange-500 text-3xl p-2">#contact</h2>
-                <p className="text-xl px-2 text-white">You can write me an email: <a href="mailto:prathamontheweb@gmail.com" className="text-orange-500">prathamontheweb@gmail.com</a></p>
-                <p className="text-xl px-2 text-white">Or DM on X/Twitter: <a href="https://x.com/@prathamghaywat" className="text-orange-500">@prathamghaywat</a></p>
-                <p className="text-xl px-2 text-white">And if you are really weird, open an issue on Github: <a href="https://github.com/prathamghaywat" className="text-orange-500">PrathamGhaywat</a></p>
+                <p className="text-xl px-2">You can write me an email: <a href="mailto:prathamontheweb@gmail.com" className="text-orange-500">prathamontheweb@gmail.com</a></p>
         </div>
         <footer>
           <h3 className="text-center p-10 text-muted-foreground">Pratham Ghaywat - All rights reserved</h3>
