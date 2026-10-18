@@ -57,7 +57,7 @@ export function App() {
                 ))}
         </div>
         </div>
-        <div className="mx-4 mt-5 bg-neutral-900" id="work">
+        <div className="mx-4 mt-5 bg-neutral-900" id="experience">
           <h2 className="text-orange-500 text-3xl p-2">#experience</h2>
           <p className="text-xl px-2 text-muted-foreground">My accomplishments and what I know</p>
           <ul className="px-2 py-2 text-2xl text-white">
